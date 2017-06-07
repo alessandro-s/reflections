@@ -1,0 +1,60 @@
+Question: How did viewing a diff between two versions of a file help you see
+the bug that was introduced?
+
+Answer: Viewing a diff was very useful, because it took out a lot of the non-
+essential information, and it showed me exactly what changes had been made,
+clearly marking which information was in the old file and which information
+was in the new file.
+
+
+Question: How could having easy access to the entire history of a file make you 
+a more efficient programmer in the long term?
+
+Answer: Having access to the entire history of a file prevents me from having 
+to spend lots of time finding out what I or a team member may have inadvertently
+changed in a file while making another intentional change. It also prevents me
+from having to redo work that I've done before, if I want to restore part of my
+code to the form it took previously.
+
+
+Question: What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically saved, 
+like Google Docs does?
+
+Answer:
+* Manual commitments
+   - PRO: Each saved version can be made complete and logical.
+   - CON: If the user forgets to save, she can lose a lot of work.
+* Automatic commitments
+   - PRO: The user doesn't need to remember to make commitments.
+   - CON: The commitments won't have clear, logical purposes understandable by other users. The versions of code saved will often be incomplete.
+
+
+Question: Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each file 
+separately?
+
+Answer: I think it's more likely that files would be interconnected in coding,
+which Git was mainly designed for, than in general-use documents. So it makes 
+sense for Google Docs to cater to general users. I also don't think it would be
+practical to use the kind of automatic saving that Google Docs uses while
+treating multiple files as one commitment.
+
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: The command "git log" allows you to see the full history of a repository. (Pressing the space bar lets you see more of the log, and using the --stat option gives you some more helpful infomration.) The log shows who made commitments when, and it also gives the coder's notes on the commitment.
+
+"git diff" is a command that's most useful for comparing two specific commitments. It shows you exactly what changed in each file in the repository between each commitment.
+
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: Using version control reduces the riskiness of experimentation. If I end up making a change to code that doesn't work, I can find out how to undo that change, without having to remember what everything looked like before I made the change. So using version control reduces the downside to making a change that could break something.
+
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: I want to use it for the code that I'm about to do in the Full-Stack Web Developer Udacity Nanodegree.
+
+
