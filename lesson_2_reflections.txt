@@ -1,3 +1,8 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 
 A: When you initialize a repository, git makes a metadata file about the other files in the directory. You need to do it because that metadata does not exist until you tell git to make it.
+
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: The staging area is an intermediate place between the working directory and the repository. It's useful because you may want to have some things in your working directory but not in your repository. Having the staging area allows you to tell git exactly which items in the directory to keep track of, and which items not to keep track of.
