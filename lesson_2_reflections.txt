@@ -1,0 +1,3 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: When you initialize a repository, git makes a metadata file about the other files in the directory. You need to do it because that metadata does not exist until you tell git to make it.
