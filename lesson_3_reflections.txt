@@ -1,0 +1,8 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+I would want to use a remote repository in the following circumstances:
+  * I want to keep a backup copy of a file stored in a cloud rather than on one device
+  * I want to access the same file from multiple devices
+  * I want to collaborate on the same file with other people
+  
+Q: 
